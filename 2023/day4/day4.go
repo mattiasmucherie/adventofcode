@@ -53,7 +53,7 @@ func partA() {
 
 	}
 
-	fmt.Println("day3 part A answer is:", totalSum)
+	fmt.Println("day 4 part A answer is:", totalSum)
 	duration := time.Since(start)
 	fmt.Println(duration)
 }
@@ -112,7 +112,7 @@ func partB() {
 	for _, c := range card {
 		totalSum += c
 	}
-	fmt.Println("day3 part A answer is:", totalSum)
+	fmt.Println("day 4 part B answer is:", totalSum)
 	duration := time.Since(start)
 	fmt.Println(duration)
 }
